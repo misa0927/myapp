@@ -1,0 +1,66 @@
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Feb 13 22:39:02 2023] ***
+compiled with version: 11.3.0 on 13 February 2023 13:22:54
+os: Linux-6.0.12-76060006-generic #202212290932~1674139725~22.04~ca93ccf SMP PREEMPT_DYNAMIC Thu J
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/misa/myapp
+detected binary path: /home/misa/myapp/venv/bin/uwsgi
+your processes number limit is 62879
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/uwsgi.sock fd 3
+Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556f79994060
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named '%(app)'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556f79994060 pid: 9305 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9305)
+spawned uWSGI worker 1 (pid: 9306, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /tmp/uwsgi.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Wed Feb 15 23:17:06 2023] ***
+compiled with version: 11.3.0 on 13 February 2023 13:22:54
+os: Linux-6.0.12-76060006-generic #202212290932~1674139725~22.04~ca93ccf SMP PREEMPT_DYNAMIC Thu J
+nodename: pop-os
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /home/misa/myapp
+detected binary path: /home/misa/myapp/venv/bin/uwsgi
+your processes number limit is 62879
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/uwsgi.sock fd 3
+Python version: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56460efb4050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+ModuleNotFoundError: No module named '%(app)'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56460efb4050 pid: 8624 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8624)
+spawned uWSGI worker 1 (pid: 8625, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /tmp/uwsgi.sock removed.
